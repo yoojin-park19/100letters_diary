@@ -5,9 +5,9 @@ function count(){
     let textArea = document.getElementById('textArea').value;
     let today = new Date();
     let year = today.getFullYear();
-    let month = today.getMonth();
-    let day = today.getDay();
-    document.getElementById('textArea').innerText = year + '년' + month + '월' + day +'일' + '날씨:'
+    let month = today.getMonth()+1;
+    let date= today.getDate();
+    document.getElementById('textArea').innerText = year + '년' + month + '월' + date +'일' + '날씨:'
         if(textArea.length > 115) {
             textArea = textArea.substring(0,115); 
             document.getElementById('textArea').value = textArea;
