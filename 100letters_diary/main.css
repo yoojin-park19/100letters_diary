@@ -1,41 +1,67 @@
 @font-face {
-    font-family: 'KOTRAHOPE';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-family: 'Minhye';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Minhye.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 .container {
-    width: 340px;
+    width: auto;
     height: auto;
-    border: 4px solid #F7F2E0;
+    border: 4px solid #ee8e9b;
     border-radius: 10px;
 }
 .cont_write {
     margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .cont_write p {
     font-size: 24px;
-    font-family: 'KOTRAHOPE';
-    color: #eed98e;
-    text-decoration: underline;
+    font-family: 'Minhye';
+    color: #fff;;
+    margin-bottom: 5px;
+    background-color: #ee8e9b;
+    width: 100%;
+    font-weight: 700;
+    padding: 10px;
 }
 #textArea {
+    width: 100%;
     border: none;
-    background-color: #F7F2E0;
-    padding: 10px 0 0 10px;
+    margin: 5px 0;
 }
 #letters {
     float: right;
+    font-family: 'Minhye';
+    font-size: 18px;
 }
 #myBtn {
-    width: 100%;
+    width: 100px;
     height: 30px;
     cursor: pointer;
-    background-color: hsl(46, 87%, 75%);
+    background-color: #f27283;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
-    color: #50504f;
+    color: #FFF;
     margin-bottom: 10px;
     clear: both;
+    font-family: 'Minhye';
+    font-weight: 700;
+}
+#cont_read {
+    margin: 0 10px;
+    font-family: 'Minhye';
+    font-weight: normal;
+    text-align: left;
+}
+#cont_read  li {
+    border-bottom: 1px solid #767676;
+}
+#cont_read button {
+    border: 1px solid #767676;
+    margin: 10px 0 10px 30px;
+    padding: 3px;
+    border-radius: 4px;
 }

@@ -3,14 +3,16 @@ let btn = document.getElementById('myBtn');
 
 function count(){
     let textArea = document.getElementById('textArea').value;
-        if(textArea.length > 100) {
-            textArea = textArea.substring(0,100); 
+    let today = new Date();
+    let year = today.getFullYear();
+    let month = today.getMonth();
+    let day = today.getDay();
+    document.getElementById('textArea').innerText = year + '년' + month + '월' + day +'일' + '날씨:'
+        if(textArea.length > 115) {
+            textArea = textArea.substring(0,115); 
             document.getElementById('textArea').value = textArea;
         }
-    // btn.addEventListener('click', function save(){
-    //     document.getElementById('cont_read').innerText =textArea;
-    //     })
-    document.getElementById('letters').innerHTML = 99-textArea.length + '자 남았어요!';
+    document.getElementById('letters').innerHTML = 114-textArea.length + '자 남았어요!';
     }
 
 
@@ -45,7 +47,7 @@ function paintDid(did) {
     const li = document.createElement("li");
     const span = document.createElement("span");
     const delButton = document.createElement("button");
-    delButton.innerText = "삭제"
+    delButton.innerText = "지우기"
     delButton.addEventListener('click', delDid);
     span.innerHTML = did;
     li.appendChild(span);
