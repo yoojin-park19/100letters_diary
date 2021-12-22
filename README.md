@@ -27,7 +27,7 @@
 
 
 #### 2.2 배포 URL
-<a href="https://github.com/yoojin-park19/100letters_diary/tree/main/100letters_diary"><img src="https://img.shields.io/badge/App-F02E65?style=flat-square&logo=Apache Spark&logoColor=whit"/> https://github.com/yoojin-park19/100letters_diary/tree/main/100letters_diary
+<a href="https://yoojin-park19.github.io/100letters_diary/100letters_diary/y"><img src="https://img.shields.io/badge/App-F02E65?style=flat-square&logo=Apache Spark&logoColor=whit"/> https://yoojin-park19.github.io/100letters_diary/100letters_diary/
 </a><br>
 
 <br>
