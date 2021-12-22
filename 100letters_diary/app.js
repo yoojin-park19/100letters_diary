@@ -1,5 +1,7 @@
-//  글자 제한 
-let btn = document.getElementById('myBtn');
+
+
+//  글자 제한 왜 btn이 null이지??
+const btn = document.getElementById('myBtn');
 
 function count(){
     let textArea = document.getElementById('textArea').value;
@@ -76,5 +78,4 @@ function loadDidList() {
 function init() {
     loadDidList();
     btn.addEventListener('click', createDid)
-}
-init()
+}init()
